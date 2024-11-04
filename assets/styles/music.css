@@ -1,0 +1,229 @@
+body{
+    font-family: sans-serif;
+    background:rgb(84, 87, 84);
+    padding: 50px;
+}
+
+.navbar{
+    margin-bottom: 15px;
+    background-color: #fff;
+    height: 80px;
+    width: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span{
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px;
+    margin-bottom: 15px;
+
+}
+
+.card{
+    height:250px;
+    width: 250px;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 5px;
+    background-image: url(./bag-icon.gif);
+    background-repeat: no-repeat;
+}
+
+.card-list{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    bottom: 50px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.img{
+    height:230px;
+    width: 230px;
+    transition: transform ease 1s;
+}
+h1{
+    color: #4caf50;
+    
+}
+
+h3{
+    font-style: italic;
+    color:rgb(255, 255, 255);
+}
+h4{
+    color:  #4caf50;
+    font-size: 18px;
+}
+
+
+.card img:hover{
+    transform: scale(.9);
+    opacity: 90%;
+    
+
+}
+
+.icon-logo{
+    height: 180px;
+    width: 180px;    
+}
+b{
+    color: #000;
+}
+
+.btn{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    left: 80%;
+    color: #4caf50;
+}
+
+.mob-card{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 992px) {
+
+    body{
+        padding: 5px;
+    }
+
+    .navbar{
+        height: 60px;
+        width: auto;
+        padding-right: 10px;
+    }
+
+
+    a{
+        text-decoration: none;
+        margin-left: 30px;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    span{
+        margin-bottom: 20px;
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+    .col{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 5px;
+        margin-bottom: 15px;
+
+    }
+
+    .card{
+        height:160px;
+        width: 160px;
+        background-color: white;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        border-radius: 5px;
+        background-image: url(./bag-icon.gif);
+        background-repeat: no-repeat;
+    }
+
+    .card-list{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .mob-card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 8px;
+    }
+
+    .img{
+        height:150px;
+        width: 150px;
+        transition: transform ease 1s;
+    }
+    h1{
+        color: #4caf50;
+        font-size: larger;
+        left: 0;
+    }
+
+    h3{
+        font-style: italic;
+        color:rgb(255, 255, 255);
+        font-size: large;
+    }
+    h4{
+        color:  #4caf50;
+        font-size: small;
+    }
+
+
+    .card img:hover{
+        transform: scale(.9);
+        opacity: 90%;
+        
+
+    }
+
+    .icon-logo{
+        height: 180px;
+        width: 180px;    
+    }
+    b{
+        color: #000;
+    }
+
+    .btn{
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        left: 80%;
+        color: #4caf50;
+    }
+    
+}

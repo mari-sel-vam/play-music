@@ -1,0 +1,141 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background:rgb(84, 87, 84);
+    flex-direction: column;
+    margin: 0;
+}
+
+.main{
+    background-color:white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+}
+
+h1{
+    color:  #4caf50;
+}
+
+label{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+input{
+padding: 15px;
+width: 100%;
+margin-bottom: 15px;
+padding: 10px;
+box-sizing: border-box;
+border: 1px solid #ddd;
+border-radius: 5px;    
+}
+
+button{
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4caf50;
+    width: 100%;
+    font-size: 16px;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.login-gif{
+    height: 200px;
+    width: 250px;
+}
+
+.otp-gif{
+    height: 150px;
+    width: 150px;
+}
+
+.icon-logo{
+    height: 190px;
+    width: 200px;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 992px) {
+    .main{
+        width: 290px;
+        height: 500px;
+    }
+
+    .sign-main{
+        width: 290px;
+        height: fit-content;
+        margin: 10px;
+    }
+    
+    h1{
+        color:  #4caf50;
+        font-size: large;
+    }
+    
+    label{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: left;
+        font-weight: bold;
+        font-size: small;
+    }
+    
+    input{
+    margin-bottom: 10px;   
+    }
+
+    p{
+        font-size: small;
+        margin-top: 0;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .login-gif{
+        height: 110px;
+        width: 160px;
+    }
+    
+    .otp-gif{
+        height: 150px;
+        width: 150px;
+    }
+    
+    .icon-logo{
+        height: 190px;
+        width: 200px;
+        flex-direction: row;
+    } 
+  }

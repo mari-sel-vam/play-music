@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play music</title>
+    <link href="./assets/img/icon.png" rel="icon">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <div class="main">
+         <h1>Play Music</h1>
+        <h3><b>Login</b></h3>
+            <img class="login-gif" src="./assets/img/walk.gif" alt="">
+        <form id="loginForm" action="">
+           <label for="first">
+                Username
+           </label>
+            <input type="text"
+            id="email"
+            name="first"
+            placeholder="Enter your email id" required>
+          <label for="Password">
+                Password
+           </label>     
+           <input type="password"
+           id="pass"
+           name="password"
+           placeholder="Enter your password" required>
+           <a href="verify.html" style="text-decoration: none; font-size: small">forgot password?</a>
+            <div class="wrap">
+                <button type="submit" onclick="handleLogin()">Login</button>
+            </div>    
+        </form>
+         <p>Are You New User?
+            <a href="signup.html"
+                style="text-decoration: none;">
+                 Create an account
+            </a>   
+         </p>  
+    </div>      
+    <script src="./assets/js/login.js"></script> 
+</body>
+</html>

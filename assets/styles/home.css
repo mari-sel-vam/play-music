@@ -1,0 +1,150 @@
+body{
+    font-family: sans-serif;
+    background:rgb(84, 87, 84);
+}
+
+.navbar{
+    margin-bottom: 15px;
+    background-color: #fff;
+    height: 80px;
+    width: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span{
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerContainer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    margin: 30px;
+    
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px;
+    margin-bottom: 15px;
+
+}
+
+.card{
+    height:300px;
+    width:300px;
+    background-color: #4caf50;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+h1{
+    color: #4caf50;
+}
+h3{
+    color:  #4caf50;
+}
+
+.mus-gif{
+    height: 400px;
+    width: 400px;
+}
+.icon-logo{
+    height: 180px;
+    width: 180px;    
+}
+
+@media screen and (max-width: 992px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar{
+        height: 60px;
+        width: auto;
+    }
+    
+    span{
+        margin-bottom: 20px;
+        font-size: medium;
+        font-weight: bolder;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }    
+    
+    .innerContainer{
+        width: 350px;
+        height: 400px;
+    }
+    
+    .col{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 5px;
+        margin-bottom: 15px;
+    
+    }
+    
+    .card{
+        height:300px;
+        width:300px;
+        background-color: #4caf50;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+    h1{
+        color: #4caf50;
+        font-size: larger;
+    }
+    h3{
+        color:  #4caf50;
+        font-size: medium;
+    }
+    
+    .mus-gif{
+        height: 320px;
+        width: 320px;
+    } 
+  }

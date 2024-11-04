@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+     <div class="main">
+        <h1>Play Music</h1>
+        <h3>OTP-Verification</h3>
+        <img class="otp-gif" src="../assets/img/message.gif" alt="">
+        <form id="otpform" action=""> 
+            <input type="text"
+            id="otpinput"
+            name="otp"
+            placeholder="Enter OTP" required>
+           
+            <div class="wrap">
+                <button type="submit" onclick="userSubmit()">
+                    Verify
+                </button>
+            </div>
+        </form>
+           <hr />
+           <p>Send OTP Again?</p>  
+        <div class="wrap">
+            <button type="Resend OTP"
+                    onclick="">
+                    <a href="#">
+                        Resend OTP
+                    </a>
+            </button>
+        </div>
+</body>
+<script src="./assets/js/signup.js"></script>
+</html>

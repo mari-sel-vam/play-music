@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+     <div class="main sign-main">
+        <h1>Play Music</h1>
+        <h3>Enter your Account credentials</h3>
+        <form id="signupform" action="">
+           <label>
+                Name
+           </label>
+            <input type="text"
+            id="userName"
+            name="first"
+            placeholder="Enter your Name" required>
+            <label for="first">
+                Email Addres
+           </label>
+            <input type="text"
+            id="emailId"
+            name="first"
+            placeholder="Enter your email addres" required>
+            <label for="first">
+                D-O-B
+           </label>
+            <input type="date"
+            id="dob"
+            name="first"
+            placeholder=" DD/MM/YY" required>
+          <label for="Password">
+                Password:
+           </label>     
+           <input type="password"
+           id="password"
+           name="password"
+           placeholder="Enter your password" required>
+           <label for="Password">
+            Confirm Password:
+       </label>     
+       <input type="password"
+       id="repassword"
+       name="repassword"
+       placeholder="Repeat password" required>
+        <div class="wrap">
+            <button onclick="handleCancelBtn()">
+                Cancel
+            </button>
+            <button onclick="handleUserData()" type="submit">
+                Next
+            </button>
+        </div>    
+            </form>
+         <p>Already have a account?
+            <a href="index.html"
+                style="text-decoration: none;">
+                 Login
+            </a>   
+         </p>  
+     </div>  
+</body>
+<script src="./assets/js/signup.js"></script>
+</html>

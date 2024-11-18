@@ -1,7 +1,7 @@
 body{
     font-family: sans-serif;
     background:rgb(84, 87, 84);
-    padding: 50px;
+
 }
 
 .navbar{
@@ -124,8 +124,8 @@ audio{
 @media screen and (max-width: 992px){
     .navbar{
         height: 60px;
-        width: auto;
-        padding-right: 10px;
+        width: 100vw;
+        padding-right:8px;
     }
     
     a{
@@ -191,8 +191,8 @@ audio{
     .outerContainer{
         background-color: #fff;
         height: fit-content;
-        width: auto;
-        padding: 20px;
+        width:88%;
+        padding:40px;
         border-radius: 5px;
     }
     .title-card{

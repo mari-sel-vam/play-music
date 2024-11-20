@@ -1,16 +1,18 @@
 body{
     font-family: sans-serif;
     background:rgb(84, 87, 84);
-    /* padding: 50px; */
+    padding:5px;
+    overflow-x: hidden;
+
 }
 
 .navbar{
-    margin-bottom: 15px;
+    margin-bottom:3%;
     background-color: #fff;
-    height: 80px;
+    height:70%;
     width: auto;
-    padding: 10px;
-    border-radius: 5px;
+    padding:.8%;
+    border-radius:5px;
 }
 
 a{
@@ -61,7 +63,7 @@ span{
     top: 50px;
     bottom: 50px;
     border-radius: 5px;
-    padding: 10px;
+    padding:5px;
     left: 0;
 
 }
@@ -116,20 +118,20 @@ b{
 
 @media screen and (max-width: 992px) {
 
-    /* body{
-        padding: 5px;
-    } */
+     body{
+        padding:2px;
+    } 
 
     .navbar{
-        height: 60px;
-        width: 100vw;
+        height:70px;
+        width:97%;
         padding-right: 10px;
     }
 
 
     a{
         text-decoration: none;
-        margin-left: 30px;
+        margin: 15px;
     }
 
     .row{
@@ -156,14 +158,14 @@ b{
     }
 
     .card{
-        height:160px;
-        width: 160px;
+        height:150px;
+        width: 150px;
         background-color: white;
         display:flex;
         align-items: center;
         justify-content:center;
-        border-radius: 5px;
-        background-image: url(./bag-icon.gif);
+        border-radius:5px;
+        background-image: url(../img/bag-icon.gif);
         background-repeat: no-repeat;
     }
 
@@ -179,12 +181,12 @@ b{
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-        margin: 8px;
+        margin:10px;
     }
 
     .img{
-        height:150px;
-        width: 150px;
+        height:140px;
+        width: 140px;
         transition: transform ease 1s;
     }
     h1{

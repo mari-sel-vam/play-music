@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     background:rgb(84, 87, 84);
+    padding:3%;
 
 }
 
@@ -8,7 +9,7 @@ body{
     margin-bottom: 15px;
     background-color: #fff;
     height: 80px;
-    width: auto;
+    width: 101.5%;
     padding: 10px;
     border-radius: 5px;
     display: flex;
@@ -88,7 +89,7 @@ h4{
 .outerContainer{
     background-color: #fff;
     height: fit-content;
-    width: 87.8vw;
+    width:91.7vw;
     padding: 20px;
     border-radius: 5px;
 }
@@ -123,9 +124,9 @@ audio{
 
 @media screen and (max-width: 992px){
     .navbar{
-        height: 60px;
-        width: 100vw;
-        padding-right:8px;
+        height:10%;
+        width: 90vw;
+        padding:1%;   
     }
     
     a{
@@ -191,8 +192,8 @@ audio{
     .outerContainer{
         background-color: #fff;
         height: fit-content;
-        width:88%;
-        padding:40px;
+        width:82%;
+        padding:10%;
         border-radius: 5px;
     }
     .title-card{
